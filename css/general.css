@@ -1,0 +1,37 @@
+:root {
+    --white: #ffffff;
+    --lightGray: #f0f2f6;
+    --orange: #f26937;
+    --gray: #808191;
+    --darkGray: #1f2128;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Bai Jamjuree', sans-serif;
+	line-height: 1;
+    color: var(--lightGray);
+    background-color: #0a0a0a;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
